@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+header {
+    font-size: 2.75vh;
+}
+
+body {
+    background-image: url('ar.png');
+    background-size: cover;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav button {
+    background-color: rgb(66, 63, 63);
+    color: white;
+    font-size: 2.5vh;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+header img {
+    height: 1%;
+    width: 5%;
+}
+
+.container1 {
+    margin-bottom: 75px;
+    border: solid cyan;
+    background-color: grey;
+    overflow: hidden;
+}
+
+.oxigen_atom {
+    float: left;
+    width: 30%;
+}
+
+.oxigen_title {
+    font: 42px 'sans-serif';
+}
+
+.oxigen_text {
+    color: white;
+    font-size: 28px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 75px;
+}
+
+.container2 img {
+    height: 200px;
+    width: 250px;
+    border: solid rgb(54, 50, 50);
+}
+
+footer {
+    border: solid cyan;
+    background-color: gray;
+    padding: 12px;
+    width: 50%;
+    margin: auto;
+}
+
+.explext {
+    color: white;
+    font-size: 28px;
+    text-align: justify;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.expimg {
+    float: left;
+    width: 30%;
+    padding-right: 25px;
+}
+
+.expimg_esp {
+    float: left;
+    width: 35%;
+    padding-right: 25px;
+}
+
+.container3 {
+    display: grid;
+    align-content: space-evenly;
+}
+
+.container3 input {
+    margin-bottom: 50px;
+}
+
+.plans {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+button {
+    background-color: rgb(66, 63, 63);
+    color: white;
+    font-size: 2.5vh;
+    border-radius: 10%;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+.price:hover {
+    content: url('yes.png');
+}
